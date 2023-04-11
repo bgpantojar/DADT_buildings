@@ -2,12 +2,12 @@
 This repository contains the codes for computing damage augmented digital twins as 3D models for buildings. The hereby methodology was presented in the paper ["Damage-augmented digital twins towards the automated inspection of buildings" by Pantoja-Rosero et., al. (2023)] (https://doi.org/10.1016/j.autcon.2023.104842)
 
 <p align="center">
-  <img src=docs/images/dadt_01.png>
+  <img src=docs/dadt_01.png>
 </p>
 
 
 <p align="center">
-  <img src=docs/images/dadt_02.png>
+  <img src=docs/dadt_02.png>
 </p>
 
 
@@ -91,7 +91,7 @@ lod3_buildings
 The methodology requires as input the next:
 
 - sfm.json: file containing the sfm information (camera poses and structure). Add to the default `Meshroom` pipeline a node `ConverSfMFormat` and connect its input to the SfMData output from the node `StructureFromMotion`. In the node `ConverSfMFormat` options modify the SfM File Format to json. After running the modified `Meshroom` pipeline, this file is output in the folder `MeshroomCache/ConvertSfMFormat/a_folder_id/`. Copy that file inside the `your_DADT_data_folder\sfm`
-- A registered view image for each facade containing the openings: For each facade, place one image in which the openings are visible in the folder `data/your_LOD3_data_folder/images/im1/`.
+- A registered view image for each facade containing the openings and damages: For each facade, place one image in which the openings and damages are visible in the folder `data/your_LOD3_data_folder/images/im1/`.
 - polyfit.obj: use `Polyfit` pipeline either with the sparse or dense point cloud produced by the `Meshroom` pipeline. Note that it might be necessary to pre-process the point clouds deleting noisy points before running `Polyfit`. Save the output file as polyfit.obj or polyfit_dense.obj and place it in the folder `data/your_LOD3_data_folder/polyfit/`
 
 Check the files of the data examples provided if neccessary to create the inpute data.
