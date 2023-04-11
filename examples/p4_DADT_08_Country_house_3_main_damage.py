@@ -29,13 +29,6 @@ sfm_json_path = '../data/' + data_folder + '/sfm/'
 how2get_kp = 0 #it can be 0: using detectors, 1: loading npy arrrays, 2: by clicking in the image, 3:im1:numpy arrays, im2:homography, 4: LKT
 im1 = ('frame000450','frame002400','frame003330','frame004650')
 
-#############USER CALLING FUNCTIONS
-
-#Detector
-#if how2get_kp == 0 or how2get_kp == 4:
-#    opening_4points = opening_4points = main_op_detector(data_folder, images_path, bound_box, op_det_nn, cte_fil4=.05)
-#else:
-#    opening_4points = None
 
 #############USER CALLING FUNCTIONS
 #Detector

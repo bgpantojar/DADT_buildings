@@ -31,14 +31,6 @@ im1 = ('DJI_0161','DJI_0171','DJI_0178','CC0_3317')
 
 
 #############USER CALLING FUNCTIONS
-
-#Detector
-#if how2get_kp == 0 or how2get_kp == 4:
-#    opening_4points = opening_4points = main_op_detector(data_folder, images_path, bound_box, op_det_nn)
-#else:
-#    opening_4points = None
-
-#############USER CALLING FUNCTIONS
 #Detector
 if how2get_kp == 0 or how2get_kp == 4:
     opening_4points = main_op_detector(data_folder, images_path, bound_box, op_det_nn, cte_fil4=.1)
