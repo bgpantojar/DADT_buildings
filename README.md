@@ -73,6 +73,8 @@ Inside the folder `examples/` we have provide the input scripts that our algorit
 
 The algorithm first will create the openings, damage and characterization in 3D and then merge them with the LOD2 model. Run the other examples similarly to the previous inline command.
 
+`IMPORTANT` change the paths of the lines 3 and 5 in the file DADT.sh according your pc.
+
 ### 6. Creating your own digital twin as LOD3 model
 
 Create a folder `your_DADT_data_folder` inside the `data\` folder. Inside `your_DADT_data_folder` create extra folders with the next structure:
