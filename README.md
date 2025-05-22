@@ -1,5 +1,5 @@
 # Damage augmented DT
-This repository contains the codes for computing damage augmented digital twins as 3D models for buildings. The hereby methodology was presented in the paper ["Damage-augmented digital twins towards the automated inspection of buildings" by Pantoja-Rosero et., al. (2023)] (https://doi.org/10.1016/j.autcon.2023.104842)
+This repository contains the codes for computing damage augmented digital twins as 3D models for buildings. The hereby methodology was presented in the paper ["Damage-augmented digital twins towards the automated inspection of buildings" by Pantoja-Rosero et., al. (2023)](https://doi.org/10.1016/j.autcon.2023.104842)
 
 <p align="center">
   <img src=docs/dadt_01.png>
